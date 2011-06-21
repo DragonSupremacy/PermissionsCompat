@@ -446,45 +446,45 @@ public class PermissionHandler extends com.nijiko.permissions.PermissionHandler 
     @Override
     public void setCache(String world, Map<String, Boolean> Cache) {
         //throw new UnsupportedOperationException("Unsupported (or deprecated) operation, sorry dude.");
-        Logger.getLogger("Minecraft").warning("[PermissionsEx] setCache item are internal Permissions plugin stuff. Nag plugin author.");
+        Logger.getLogger("Minecraft").warning("[PermissionsEx] setCache item is internal Permissions plugin stuff. Nag plugin author.");
     }
 
     @Override
     public void setCacheItem(String world, String player, String permission, boolean data) {
         //throw new UnsupportedOperationException("Unsupported (or deprecated) operation, sorry dude.");
-        Logger.getLogger("Minecraft").warning("[PermissionsEx] setCacheItem item are internal Permissions plugin stuff. Nag plugin author.");
+        Logger.getLogger("Minecraft").warning("[PermissionsEx] setCacheItem item is internal Permissions plugin stuff. Nag plugin author.");
     }
 
     @Override
     public Map<String, Boolean> getCache(String world) {
         //throw new UnsupportedOperationException("Unsupported (or deprecated) operation, sorry dude.");
-        Logger.getLogger("Minecraft").warning("[PermissionsEx] setCacheItem item are internal Permissions plugin stuff. Nag plugin author.");
+        Logger.getLogger("Minecraft").warning("[PermissionsEx] setCacheItem item is internal Permissions plugin stuff. Nag plugin author.");
         return new HashMap<String, Boolean>();
     }
 
     @Override
     public boolean getCacheItem(String world, String player, String permission) {
         //throw new UnsupportedOperationException("Unsupported (or deprecated) operation, sorry dude.");
-        Logger.getLogger("Minecraft").warning("[PermissionsEx] getCacheItem item are internal Permissions plugin stuff. Nag plugin author.");
+        Logger.getLogger("Minecraft").warning("[PermissionsEx] getCacheItem item is internal Permissions plugin stuff. Nag plugin author.");
         return false;
     }
 
     @Override
     public void removeCachedItem(String world, String player, String permission) {
         //throw new UnsupportedOperationException("Unsupported (or deprecated) operation, sorry dude.");
-        Logger.getLogger("Minecraft").warning("[PermissionsEx] removeCachedItem item are internal Permissions plugin stuff. Nag plugin author.");
+        Logger.getLogger("Minecraft").warning("[PermissionsEx] removeCachedItem item is internal Permissions plugin stuff. Nag plugin author.");
     }
 
     @Override
     public void clearCache(String world) {
         //throw new UnsupportedOperationException("Unsupported (or deprecated) operation, sorry dude.");
-        Logger.getLogger("Minecraft").warning("[PermissionsEx] clearCache item are internal Permissions plugin stuff. Nag plugin author.");
+        Logger.getLogger("Minecraft").warning("[PermissionsEx] clearCache item is internal Permissions plugin stuff. Nag plugin author.");
     }
 
     @Override
     public void clearAllCache() {
         //throw new UnsupportedOperationException("Unsupported (or deprecated) operation, sorry dude.");
-        Logger.getLogger("Minecraft").warning("[PermissionsEx] clearAllCache item are internal Permissions plugin stuff. Nag plugin author.");
+        Logger.getLogger("Minecraft").warning("[PermissionsEx] clearAllCache item is internal Permissions plugin stuff. Nag plugin author.");
     }
 
     @Override
